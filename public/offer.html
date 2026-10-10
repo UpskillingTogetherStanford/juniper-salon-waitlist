@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juniper Salon · Your opening</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="phone">
+      <div class="banner">
+        <strong>Prototype preview.</strong> This page stands in for the client's phone. The texts
+        below are <strong>simulated</strong>; nothing was actually sent.
+      </div>
+      <div class="brand"><span class="dot">✿</span> Juniper Salon</div>
+
+      <div id="messages"></div>
+
+      <section class="card" id="offer" hidden>
+        <h2 id="greeting">A spot just opened up</h2>
+        <dl class="offer-detail">
+          <dt>Service</dt><dd id="service"></dd>
+          <dt>Stylist</dt><dd id="stylist"></dd>
+          <dt>When</dt><dd id="when"></dd>
+        </dl>
+        <div id="state"></div>
+      </section>
+
+      <p class="error" id="error"></p>
+    </main>
+    <script src="/offer.js"></script>
+  </body>
+</html>

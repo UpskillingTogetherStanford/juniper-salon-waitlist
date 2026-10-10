@@ -1,0 +1,4 @@
+{
+  "services": ["Haircut", "Color", "Blowout"],
+  "stylists": ["Rosa", "Jules", "Ava"]
+}

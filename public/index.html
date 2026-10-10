@@ -3,31 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Temporal assessment starter</title>
+    <title>Juniper Salon · Openings</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <main>
-      <p class="eyebrow">Temporal assessment starter</p>
-      <h1>Your environment is connected.</h1>
-      <p class="intro">
-        This neutral demonstration starts a Workflow, waits durably for a
-        Signal, and then completes. Replace it with the experience your
-        customer needs.
+      <div class="brand"><span class="dot">✿</span> Juniper Salon</div>
+      <h1>Fill a last-minute opening</h1>
+      <p class="lede">
+        Add the cancelled slot and we'll offer it to one waitlisted client at a time, in the
+        order they joined, and keep it moving on its own.
       </p>
+
       <section class="card">
-        <h2 id="phase">Ready</h2>
-        <p id="message">Start the demonstration to verify the setup.</p>
-        <button id="start">Start demo Workflow</button>
-        <button id="continue" hidden>Send continue Signal</button>
-        <p class="request-id" id="request-id"></p>
+        <h2>A spot just opened up</h2>
+        <form id="new-opening">
+          <div class="row">
+            <div>
+              <label for="service">Service</label>
+              <select id="service" required></select>
+            </div>
+            <div>
+              <label for="stylist">Stylist</label>
+              <select id="stylist" required></select>
+            </div>
+          </div>
+          <label for="startsAt">Appointment time</label>
+          <input id="startsAt" type="datetime-local" required />
+          <label for="window">Time each client gets to reply</label>
+          <select id="window">
+            <option value="900" selected>15 minutes</option>
+            <option value="600">10 minutes (pressed for time)</option>
+            <option value="300">5 minutes (very short notice)</option>
+            <option value="30">30 seconds (demo only)</option>
+          </select>
+          <button class="primary" type="submit" id="start">Start offering</button>
+          <p class="error" id="form-error"></p>
+        </form>
       </section>
+
+      <div id="openings"></div>
+
+      <section class="card">
+        <details>
+          <summary>Waitlist (sample data)</summary>
+          <p class="when">Stands in for the salon's Google Sheet. Edit <code>data/waitlist.json</code> to change it.</p>
+          <ul class="plain" id="waitlist"></ul>
+        </details>
+      </section>
+
       <p class="footer">
-        Inspect the execution at
-        <a href="http://localhost:8233" target="_blank">localhost:8233</a>.
+        Prototype · texts and front-desk notices are <strong>simulated</strong> and never sent ·
+        bookings still go into Square by hand ·
+        <a href="http://localhost:8233" target="_blank" rel="noopener">Temporal Web UI</a>
       </p>
     </main>
-    <script src="/app.js"></script>
+    <script src="/staff.js"></script>
   </body>
 </html>
-

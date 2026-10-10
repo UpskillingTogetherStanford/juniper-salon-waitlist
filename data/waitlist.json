@@ -1,0 +1,90 @@
+[
+  {
+    "clientId": "c-chris",
+    "name": "Chris Novak",
+    "phone": "+1 555 010 0106",
+    "service": "Haircut",
+    "stylistPreference": "Ava",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "earliest": "08:00",
+    "latest": "21:00",
+    "joinedAt": "2026-08-30T17:00:00.000Z"
+  },
+  {
+    "clientId": "c-noor",
+    "name": "Noor Haddad",
+    "phone": "+1 555 010 0108",
+    "service": "Haircut",
+    "stylistPreference": "Any",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+    "earliest": "17:00",
+    "latest": "20:00",
+    "joinedAt": "2026-09-01T17:00:00.000Z"
+  },
+  {
+    "clientId": "c-maya",
+    "name": "Maya Reyes",
+    "phone": "+1 555 010 0101",
+    "service": "Haircut",
+    "stylistPreference": "Any",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "earliest": "08:00",
+    "latest": "21:00",
+    "joinedAt": "2026-09-02T17:00:00.000Z"
+  },
+  {
+    "clientId": "c-sam",
+    "name": "Sam Okafor",
+    "phone": "+1 555 010 0104",
+    "service": "Color",
+    "stylistPreference": "Jules",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "earliest": "08:00",
+    "latest": "21:00",
+    "joinedAt": "2026-09-03T17:00:00.000Z"
+  },
+  {
+    "clientId": "c-jordan",
+    "name": "Jordan Lee",
+    "phone": "+1 555 010 0102",
+    "service": "Haircut",
+    "stylistPreference": "Rosa",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "earliest": "08:00",
+    "latest": "21:00",
+    "joinedAt": "2026-09-05T17:00:00.000Z"
+  },
+  {
+    "clientId": "c-priya",
+    "name": "Priya Shah",
+    "phone": "+1 555 010 0103",
+    "service": "Haircut",
+    "stylistPreference": "Any",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "earliest": "08:00",
+    "latest": "21:00",
+    "joinedAt": "2026-09-09T17:00:00.000Z"
+  },
+  {
+    "clientId": "c-elena",
+    "name": "Elena Park",
+    "phone": "+1 555 010 0105",
+    "service": "Color",
+    "stylistPreference": "Any",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "earliest": "08:00",
+    "latest": "21:00",
+    "joinedAt": "2026-09-12T17:00:00.000Z"
+  },
+  {
+    "clientId": "c-taylor",
+    "name": "Taylor Brooks",
+    "phone": "+1 555 010 0107",
+    "service": "Blowout",
+    "stylistPreference": "Any",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "earliest": "08:00",
+    "latest": "21:00",
+    "joinedAt": "2026-09-14T17:00:00.000Z"
+  }
+]

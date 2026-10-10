@@ -1,4 +1,6 @@
 # Evidence
 
-Before submitting, replace this file or add an image in this directory showing one representative Workflow in the Temporal Web UI. The screenshot should make the Workflow ID, status, and meaningful event history visible without exposing real personal information.
-
+`temporal-web-ui.png` shows one representative opening Workflow in the Temporal Web UI:
+its Workflow ID, status, and event history (offer texts, reply-window timers, the
+client's Update, and the confirmation / front-desk Activities). All client names are
+fictional sample data.
